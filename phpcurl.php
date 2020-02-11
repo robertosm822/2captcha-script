@@ -46,6 +46,7 @@ function baixarImg($imgurl){
     }
 }
 
+// metodo da biblioteca que vasculha a pagina HTML da ANP para achar a imagem por ID
 $html = file_get_html($urlANP);
 $links = array();
 //print_r($html->find('img[id="frmConsulta:CaptchaImgID"]'));
