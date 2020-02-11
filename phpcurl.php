@@ -179,7 +179,7 @@ function recognize(
     }
 }
 
-$urlCodeOk = recognize('./img/testeCaptcha.jpg', "1b755845270ee8614f617701ef345132");
+$urlCodeOk = recognize('./img/testeCaptcha.jpg', "SUA_KEY_AQUI");
 
 // $url_codigo_img = 'http://2captcha.com/res.php?key=1b755845270ee8614f617701ef345132&action=get&id=63252113604';
 
