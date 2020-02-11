@@ -36,6 +36,7 @@ $urlAnpBase='http://app.anp.gov.br/';
 $urlANP = 'http://app.anp.gov.br/anp-cpl-web/public/simp/consulta-base-distribuicao/consulta.xhtml';
 require('./simple_html_dom.php');
 
+// codigo adaptado de exemplo, exige que a copia da imagem esteja no diretorio do script
 function baixarImg($imgurl){
     if( !@copy( $imgurl, './img/testeCaptcha.jpg' ) ) {
         $errors= error_get_last();
